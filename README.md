@@ -3,7 +3,7 @@
 
 [![Total Stars](https://img.shields.io/github/stars/zerorooot/FuckBilibiliVote?style=social)](https://github.com/zerorooot/FuckBilibiliVote/) [![Latest Release](https://img.shields.io/github/v/release/zerorooot/FuckBilibiliVote?label=Latest%20Release)](https://github.com/zerorooot/FuckBilibiliVote/releases)
 
-<img src="Screenshot/demo.jpg" width="50%">
+<img src="./Screenshot/demo.jpg" width="50%">
 
 # 下载
 https://github.com/zerorooot/FuckBilibiliVote/releases
@@ -45,7 +45,7 @@ arrayList2.add(viewProgressChange$CommandDM);
 private final void m0(ViewProgressReply viewProgressReply, long j2, long j3) {}
 ```
 
-![guide](Screenshot/guide.png)
+![guide](./Screenshot/guide.png)
 
 记下当前的类名和方法
 
@@ -57,7 +57,7 @@ private final void m0(ViewProgressReply viewProgressReply, long j2, long j3) {}
 
 把刚才得到的类名和方法填入biliClassName和biliClassMethod中，保存
 
-<img src="Screenshot/demo.jpg" width="50%">
+<img src="./Screenshot/demo.jpg" width="50%">
 
 重启哔哩哔哩
 
