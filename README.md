@@ -5,11 +5,14 @@
 
 <img src="Screenshot/demo.jpg" width="50%">
 
+# 下载
+https://github.com/zerorooot/FuckBilibiliVote/releases
+
 # 如何自定义
 
 ## 找到相关类和方法
 
-反编译app，找到
+反编译app，搜索
 
 ```
 import com.bapis.bilibili.app.view.v1.CommandDm;
