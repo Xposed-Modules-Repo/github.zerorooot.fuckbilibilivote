@@ -8,6 +8,10 @@
 # 下载
 https://github.com/zerorooot/FuckBilibiliVote/releases
 
+# 更新配置文件
+
+长按“save”按钮
+
 # 如何自定义
 
 ## 找到相关类和方法
@@ -46,6 +50,8 @@ private final void m0(ViewProgressReply viewProgressReply, long j2, long j3) {}
 ```
 
 ![guide](https://raw.githubusercontent.com/zerorooot/FuckBilibiliVote/main/Screenshot/guide.png)
+
+注：方法的参数必须是三个，且类型必须为**ViewProgressReply、long、long**
 
 记下当前的类名和方法
 
@@ -124,4 +130,3 @@ video_guide {
   }
 }
 ```
-
