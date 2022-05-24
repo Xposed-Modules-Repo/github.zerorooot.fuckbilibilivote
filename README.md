@@ -3,73 +3,7 @@
 
 [![Total Stars](https://img.shields.io/github/stars/zerorooot/FuckBilibiliVote?style=social)](https://github.com/zerorooot/FuckBilibiliVote/) [![Latest Release](https://img.shields.io/github/v/release/zerorooot/FuckBilibiliVote?label=Latest%20Release)](https://github.com/zerorooot/FuckBilibiliVote/releases)
 
-<img src="https://raw.githubusercontent.com/zerorooot/FuckBilibiliVote/main/Screenshot/demo.jpg" width="50%">
-
-# 下载
-https://github.com/zerorooot/FuckBilibiliVote/releases
-
-# 更新配置文件
-
-长按“save”按钮
-
-# 如何自定义
-
-## 找到相关类和方法
-
-反编译app，搜索
-
-```
-import com.bapis.bilibili.app.view.v1.CommandDm;
-```
-
-或者
-
-```
-com/bapis/bilibili/app/view/v1/CommandDm
-```
-
-找有类似下面这段代码的方法
-
-```java
-viewProgressChange$CommandDM.setId(String.valueOf(commandDm.getId()));
-viewProgressChange$CommandDM.setOid(Long.valueOf(commandDm.getOid()));
-viewProgressChange$CommandDM.setMid(Long.valueOf(commandDm.getMid()));
-viewProgressChange$CommandDM.setCommand(commandDm.getCommand());
-viewProgressChange$CommandDM.setContent(commandDm.getContent());
-viewProgressChange$CommandDM.setProgress(Integer.valueOf(commandDm.getProgress()));
-viewProgressChange$CommandDM.setCtime(commandDm.getCtime());
-viewProgressChange$CommandDM.setMtime(commandDm.getMtime());
-viewProgressChange$CommandDM.setExtra(commandDm.getExtra());
-arrayList2.add(viewProgressChange$CommandDM);
-```
-
-比如在6.73.1，方法的名字是`m0`
-
-```java
-private final void m0(ViewProgressReply viewProgressReply, long j2, long j3) {}
-```
-
-![guide](https://raw.githubusercontent.com/zerorooot/FuckBilibiliVote/main/Screenshot/guide.png)
-
-注：方法的参数必须是三个，且类型必须为**ViewProgressReply、long、long**
-
-记下当前的类名和方法
-
-类名  :`tv.danmaku.chronos.wrapper.chronosrpc.remote.RemoteServiceHandler`
-
-方法 : `m0`
-
-## 在app里设置类名和方法
-
-把刚才得到的类名和方法填入biliClassName和biliClassMethod中，保存
-
-<img src="https://raw.githubusercontent.com/zerorooot/FuckBilibiliVote/main/Screenshot/demo.jpg" width="50%">
-
-重启哔哩哔哩
-
-打开相关视频
-
-查看lsp日志，输出以下内容即为hook成功
+勾选后查看lsp日志，输出以下内容即为hook成功
 
 ```
 arc_shot {
