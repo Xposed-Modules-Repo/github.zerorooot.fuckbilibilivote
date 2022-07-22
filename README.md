@@ -5,37 +5,16 @@
 
 测试视频：https://www.bilibili.com/video/BV1Wy4y1m7Xu
 
-关注：00:34 ~ 00:39
+日志输出：
 
-up主弹幕：00:53、05:16
+```json
+{"vote":[{"time":"07:42 ~ 07:49","question":"谁来背这个锅？","option1":"使用AI的人","option2":"开发AI的人"}],"attention":{"time":"00:34 ~ 00:39"},"up":[{"content":"危","time":"00:53"},{"content":"嗨呀，去年做好的视频啦，没想到，已经411年了","time":"05:16"}]}
+```
 
-投票：07:42 ~ 07:49
+测试视频： https://www.bilibili.com/video/BV1N5411Q7UU
 
 日志输出：
 
 ```json
-{
-     "vote": [
-          {
-               "time": "07:42 ~ 07:49",
-               "question": "谁来背这个锅？",
-               "option1": "使用AI的人",
-               "option2": "开发AI的人"
-          }
-     ],
-     "attention": {
-          "time": "00:34 ~ 00:39"
-     },
-     "up": [
-          {
-               "content": "危",
-               "time": "00:53"
-          },
-          {
-               "content": "嗨呀，去年做好的视频啦，没想到，已经411年了",
-               "time": "05:16"
-          }
-     ]
-}
+{"operation_card_new":[{"time":"15 ~ 30","title":"凡人修仙传"}]}
 ```
-
