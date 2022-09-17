@@ -7,7 +7,7 @@
 
 https://www.bilibili.com/video/BV1Wy4y1m7Xu
 
-```json
+```txt
 vote : 07:42 ~ 07:49
 attention : 00:34 ~ 00:39
 up : 00:53、05:16
@@ -15,7 +15,7 @@ up : 00:53、05:16
 
  https://www.bilibili.com/video/BV1N5411Q7UU
 
-```json
+```txt
 00:15 ~ 00:30
 ```
 
