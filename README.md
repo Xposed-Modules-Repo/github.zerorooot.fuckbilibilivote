@@ -24,6 +24,6 @@ https://www.bilibili.com/video/BV1Lt4y137LY
 00:17 ~ 00:23
 ```
 
-注：如果你想显示up主弹幕，在`/sdcard/Android/`下新建一个名为`up`文件即可。
+注：如果你想显示up主弹幕，在`/sdcard/Android/`下新建一个名为`up`的文件即可。
 
 如果一切正常，你会在lsp日志里看到`fuckbilibilivote : 显示up主弹幕`
